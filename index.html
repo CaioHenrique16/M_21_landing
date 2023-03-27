@@ -8,6 +8,238 @@
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__container">
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secondary">Assista agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <div class="hero__content__branding">
+                <img src="./dist/images/jojo_logo.webp" alt="Disney+">
+            </div>
+            <h3 class="title--small">
+                Acompanha a saga em um só lugar !
+            </h3>
+            <p>
+                <a href="#" class="link-text">Novos episodios dísponiveis</a>
+                <br>
+                <span class="text">
+                    Temporada 6°. Novo episódio toda semana !
+                </span>
+            </p>
+            <ul class="hero__content__combos">
+                <li class="hero__content__combos__combo">
+                    <button class="button">Assita do início</button>
+                </li>
+                <li class="hero__content__combos__combo">
+                    <button class="button">Continuar</button>
+                </li>
+            </ul>
+            <p class="text--small">
+                *O preço pode variar caso a assinatura seja feita através de outras plataformas.
+            </p>
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
+                Anime
+            </button>
+            <button data-tab-button="populares" class="shows__tabs__button">
+                Manga
+            </button>
+            <button data-tab-button="star_plus" class="shows__tabs__button">
+                Games
+            </button>
+        </nav>
+        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/part_1.jpg" alt="desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/part_2.jpg" alt="lobisomem">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/part_3.jpg" alt="sem limites">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/part_4.jpg" alt="spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/part_5.jpg" alt="santa">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/part_6.jpeg" alt="desencantada">
+            </li>
+        </ul>
+        <ul data-tab-id="populares" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/manga_1.png" alt="bluey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/manga_2.jpg" alt="lua">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/manga_3.jpg" alt="doutor">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/manga_4.jpg" alt="obi">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/manga_5.webp" alt="red">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/manga_6.jpeg" alt="tudo igual">
+            </li>
+        </ul>
+        <ul data-tab-id="star_plus" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/game_1.jpg" alt="kard">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/game_2.webp" alt="libertadores">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/game_3.jpg" alt="belair">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/game_4.jpg" alt="nba">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/game_5.jpg" alt="os simpson">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/game_6.jpg" alt="premier league">
+            </li>
+        </ul>
+    </section>
+    <section class="image-text-section">
+        <img src="/dist/images/jojo_hero2.jpg" alt="imagem com Tv, pc ">
+        <div class="image-text-section__text_container">
+            <h2 class="text">Assista do seu jeito</h2>
+            <p class="text--big">
+                Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de títulos em 4k não para de crescer. Além disso, para a felicidade de todos, é possível assistir em até 4 telas ao mesmo tempo.
+            </p>
+        </div>
+    </section>
+    <section class="image-text-section image-text-section--image-full-width">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./dist/images/images/fundo_rei_leao_celular.png"/>
+            <img src="/dist/images/image_section.jpg" alt="lion">
+        </picture>
+        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
+            <h2 class="text">Baixe filmes e séries</h2>
+            <p class="text--big">
+                Baixe e assista quando e onde quiser.Assim, seus favoritos estão sempre com você, até mesmo sem internet.
+            </p>
+        </div>
+    </section>
+    <section class="available-devices">
+        <h2 class="title">Disponível nos seus dispositivos favoritos</h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="./dist/images/computador.png" alt="pc">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windows</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/tv.png" alt="tv">
+                <h4 class="title--small">TV</h4>
+                <ul class="text">
+                    <li>Amazon Fire TV</li>
+                    <li>Android TV</li>
+                    <li>Apple TV</li>
+                    <li>Chromecast</li>
+                    <li>TVs LG</li>
+                    <li>Roku</li>
+                    <li>Samsung</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/videogames.png" alt="games">
+                <h4 class="title--small">Videogames</h4>
+                <ul class="text">
+                    <li>PS4</li>
+                    <li>PS5</li>
+                    <li>Xbox One</li>
+                    <li>Xbox Series X</li>
+                    <li>Xbox Series S</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/celular.png" alt="celulares e tables">
+                <h4 class="title--small">Celulares e tablets</h4>
+                <ul class="text">
+                    <li>Tablets Amazon Fire</li>
+                    <li>Celulares e Tablets Android</li>
+                    <li>iPhone e iPad</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2 class="title">Perguntas frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    O que está incluído no serviço?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    A assinatura oferece:
+                    <ul>
+                        <li>Experiência de entretenimento exclusiva.</li>
+                        <li>As melhores histórias da saga Joestar.</li>
+                        <li>Groupwatch: assista junto com amigos ou familiares, mesmo separados.</li>
+                        <li>Downloads ilimitados em até 10 dispositivos compatíveis.</li>
+                        <li>Todos os títulos em 4K UHD e HDR.</li>
+                        <li>A possibilidade de assistir em até 4 dispositivos compatíveis simultaneamente sem custo adicional.</li>
+                        <li>IMAX Enhanced: disponível para alguns títulos da Marvel em dispositivos compatíveis com o Disney+.</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Não sabe por onde começar?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Você pode iniciar sua jornada:
+                    <ul>
+                        <li>Cronologicamente, Part 1.</li>
+                        <li>Lendo o manga</li>
+                        <li>Pular para o reboot, Part 7, 8 e 9</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Quais formas de pagamento posso utilizar?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Você pode utilizar: cartão de débito, cartão de crédito, PayPal, Mercado Pago, e também empresas parceiras como Google Play Store, App Store da Apple; Mercado Livre e provedores locais de TV, telefonia e internet.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Como posso ver conteúdo com classificação indicativa até 16 e 18?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Para poder acessar o catálogo completo que inclui conteúdo com classificação indicativa até 16 e 18, todos os usuários do Disney+ na América Latina devem atualizar as configurações de controle parental do perfil. É possível restringir o conteúdo de cada perfil e também adicionar um PIN de bloqueio. Os usuários que preferirem manter a configuração atual vão continuar aproveitando o Disney+ com a classificação indicativa até 14, podendo alterá-la a qualquer momento em "Editar Perfis".
+                </div>
+            </li>
+        </ul>
+    </section>
+    <script src="./dist/js/main.js"></script>
 </body>
 </html>
